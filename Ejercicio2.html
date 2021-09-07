@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="Ejercicio2.js"></script>
+</head>
+<body class="container">
+    <header>
+        <center>
+            <br>
+            <h1 class="bg-success p-2 text-dark bg-opacity-25">Libros</h1>
+            <br>
+        </center>
+        
+    </header>
+    <form action="#">
+        <input class="form-control" type="text" placeholder="Libro ID" name="" id="txtid">
+        <br>
+        <input class="form-control" type="text" name="" placeholder="Titulo" id="txttitulo">
+        <br>
+        <input class="form-control" type="text" name="" placeholder="Nombre del Autor" id="txtnombreautor">
+        <br>
+        <input class="form-control" type="text" name="" placeholder="Apellido del Autor" id="txtapellidoautor">
+        <br>
+        <input class="form-control" type="text" name="" placeholder="Genero" id="txtgenero">
+        <br>
+        <input class="form-control" type="text" name="" placeholder="Precio" id="txtprecio">
+        <br>
+
+            <center>
+            <br>
+            <input type="file" id="file" accept="image/*" />
+            <br>
+            </center>
+        
+        <br>
+        <input class="btn btn-primary" type="button" value="Guardar" onclick="guardar_libro()">
+    </form>
+    <BR>
+    <div class="container">
+        <div class="row">
+          <div class="col" id="registros" class="g-col-6" class="d-inline p-2 bg-dark text-white">
+            <img id="img" class="img-thumbnail" class="float-left"/>
+          </div>
+          <div class="col" id="registros2" class="g-col-6" class="d-inline p-2 bg-dark text-white">
+            <img id="img" class="img-thumbnail" class="float-left"/>
+          </div>
+        </div>
+
+
+</body>
+</html>
